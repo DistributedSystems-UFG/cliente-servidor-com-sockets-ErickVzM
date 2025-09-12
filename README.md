@@ -2,7 +2,7 @@
 # ClientServerBasics (2.0)
 Erick Vaz Magalhães 202304397
 
-Este projeto demonstra um modelo simples de comunicação cliente-servidor usando Python. O cliente envia uma string e uma opção de manipulação para o servidor, que processa a string e retorna o resultado.
+Este projeto demonstra um modelo simples de comunicação cliente-servidor usando Python. O cliente envia uma string e uma opção de manipulação para o servidor, que processa a string e retorna o resultado. As opções de manipulação são: conversão para maiúscula, minúscula ou invertida.
 O projeto é composto por três arquivos principais:
 constCS.py: Contém as constantes de configuração, como o endereço IP  e o número da porta. Isso centraliza as configurações e facilita a manutenção do código.
 server.py: O script do servidor. Ele ouve por conexões, recebe dados do cliente, processa a string de acordo com a operação solicitada e envia a resposta de volta.
