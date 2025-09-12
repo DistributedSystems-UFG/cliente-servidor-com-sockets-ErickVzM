@@ -6,7 +6,7 @@ Este projeto demonstra um modelo simples de comunicação cliente-servidor usand
 O projeto é composto por três arquivos principais:
 constCS.py: Contém as constantes de configuração, como o endereço IP  e o número da porta. Isso centraliza as configurações e facilita a manutenção do código.
 server.py: O script do servidor. Ele ouve por conexões, recebe dados do cliente, processa a string de acordo com a operação solicitada e envia a resposta de volta.
-client.py: O script do cliente. Ele se conecta ao servidor, solicita uma string e uma operação ao usuário, envia os dados e exibe a resposta recebida
+client.py: O script do cliente. Ele se conecta ao servidor, solicita uma string e uma operação ao usuário, envia os dados e exibe a resposta recebida.
 Este projeto foi testado localmente.
 
 
